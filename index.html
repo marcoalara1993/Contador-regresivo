@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/estilos.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="timer">
+      <div class="timer__controls">
+        <button data-time="20" class="timer__button">20 Segundos</button>
+        <button data-time="300" class="timer__button">5 minutos</button>
+        <button data-time="900" class="timer__button">15 minutos</button>
+        <button data-time="1200" class="timer__button">20 minutos</button>
+        <button data-time="3600" class="timer__button">1 hora</button>
+        <form name="customForm" id="custom">
+          <input type="text" name="minutes" placeholder="Introduzca Minutos" />
+        </form>
+      </div>
+      <div class="display">
+        <h1 class="display__time-left"></h1>
+        <p class="display__end-time"></p>
+      </div>
+    </div>
+    <script src="js/app.js"></script>
+  </body>
+</html>
